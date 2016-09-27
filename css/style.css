@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900&effect=anaglyph);
+
+body {
+  background-color : white;
+  color : black;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body, .container-table {
+   height: 100%;
+}
+
+.container-table {
+   display: table;
+}
+
+.vertical-center-row {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+/* firstScreen */
+.myTitle h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.myTitle a, .myTitle a:visited, .myTitle a:hover, .myTitle a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+  font-size: 15px;
+  color : #727272;
+}
+
+.myTitle a:hover{
+	color:#d73444;
+}
+
+.julienT {
+  width: 150px;
+  height: 100%;
+}
+
+/* what i do now */
+.whatIDO-wrapper {
+  color : #727272;
+}
+
+.whatIDoNow h1 {
+  font-size: 15px;
+  color : #727272;
+}
+
+/* modal */
+
+/* .modal-transparent */
+
+.modal-transparent {
+  background: transparent;
+}
+.modal-transparent .modal-content {
+  background: transparent;
+}
+.modal-backdrop.modal-backdrop-transparent {
+  background: #a3a3a3;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .95;
+  filter: alpha(opacity=95);
+}
+
+/* .modal-fullscreen */
+
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #a3a3a3;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .95;
+  filter: alpha(opacity=95);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+     width: 1170px;
+  }
+}
+
+.whoiam-wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+}
+
+.whoiam-wrapper .whoiamTxt {
+  margin-top: 150px;
+}
+
+.whoiamTxt {
+  font-size: 25px;
+}
+
+.whoiamSocial, .whoiamSocial a, .whoiamSocial a:hover {
+  font-size: 15px;
+  color : #f4f4f4;
+  padding-left: 10px;
+}
