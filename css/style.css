@@ -10,6 +10,10 @@ html, body, .container-table {
    height: 100%;
 }
 
+.hidden {
+    display: none
+}
+
 .container-table {
    display: table;
 }
