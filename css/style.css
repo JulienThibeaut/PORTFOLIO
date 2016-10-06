@@ -32,9 +32,8 @@ a:active, a:hover {
 }
 
 /* firstScreen */
-.myTitle h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.fontFam {
+  font-size: 15px;
 }
 
 .myTitle a, .myTitle a:visited, .myTitle a:hover, .myTitle a:active{
@@ -43,7 +42,6 @@ a:active, a:hover {
 	position:relative;
   transition:0.5s color ease;
 	text-decoration:none;
-  font-size: 15px;
   color : #727272;
 }
 
@@ -57,13 +55,26 @@ a:active, a:hover {
 }
 
 /* what i do now */
-.whatIDO-wrapper {
-  color : #727272;
+.whatIDO-wrapper h1 {
+  color : #000000;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
-.whatIDoNow h1 {
+.whatIDO-wrapper h2 {
+  color : #000000;
   font-size: 15px;
-  color : #727272;
+  text-align: center;
+}
+
+.whatIDoNow {
+  margin-bottom: 200px;
+}
+
+/* foooter */
+footer {
+
 }
 
 /* modal */
@@ -144,5 +155,8 @@ a:active, a:hover {
 .whoiamSocial, .whoiamSocial a, .whoiamSocial a:hover {
   font-size: 15px;
   color : #f4f4f4;
-  padding-left: 10px;
+}
+
+.whoiamSocial a {
+  margin-right: 30px;
 }
